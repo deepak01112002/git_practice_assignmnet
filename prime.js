@@ -7,6 +7,12 @@ let count=0;
    }
 if(count==2){
    return true;
-}else{
+}
    return false;
+}
+let ans= checkprime(13);
+if(ans == true){
+   console.log("Prime")
+}else{
+   console.log("Not Prime")
 }
