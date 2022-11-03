@@ -10,9 +10,9 @@ if(count==2){
 }
    return false;
 }
-let ans= checkprime(13);
-if(ans == true){
-   console.log("Prime")
+let ans=checkprime(19);
+if(ans==true){
+console.log( "Is prime number")
 }else{
-   console.log("Not Prime")
+console.log( "Is not a prime number")
 }
