@@ -7,6 +7,12 @@ let count=0;
    }
 if(count==2){
    return true;
-}else{
+}
    return false;
+}
+let ans=checkprime(19);
+if(ans==true){
+console.log( "Is prime number")
+}else{
+console.log( "Is not a prime number")
 }
